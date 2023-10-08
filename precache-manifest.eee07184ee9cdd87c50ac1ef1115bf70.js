@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/master-thesis/static/js/2.865b8baf.chunk.js"
   },
   {
-    "revision": "b81de5217954e9673f4eac174ebf708b",
+    "revision": "12f52d3f5d25ea4df81f2503a346a5e8",
     "url": "/master-thesis/index.html"
   }
 ];
