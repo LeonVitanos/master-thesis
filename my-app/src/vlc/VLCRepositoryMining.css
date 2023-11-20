@@ -9,12 +9,18 @@
   .repository-mining h2 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+  }
+
+  .repository-mining h3 {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
   }
   
   /* Styling for the notes section */
   .repository-mining .notes {
-    margin-bottom: 10px;
+    margin-top: 30px;
   }
   
   /* Styling for the notes list */
