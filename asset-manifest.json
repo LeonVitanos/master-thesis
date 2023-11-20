@@ -1,13 +1,15 @@
 {
-  "main.css": "/master-thesis/static/css/main.0b346d46.chunk.css",
-  "main.js": "/master-thesis/static/js/main.4cee930f.chunk.js",
-  "main.js.map": "/master-thesis/static/js/main.4cee930f.chunk.js.map",
-  "runtime~main.js": "/master-thesis/static/js/runtime~main.2be97c03.js",
-  "runtime~main.js.map": "/master-thesis/static/js/runtime~main.2be97c03.js.map",
-  "static/js/2.865b8baf.chunk.js": "/master-thesis/static/js/2.865b8baf.chunk.js",
-  "static/js/2.865b8baf.chunk.js.map": "/master-thesis/static/js/2.865b8baf.chunk.js.map",
-  "index.html": "/master-thesis/index.html",
-  "precache-manifest.5930e58a0d39a57a8361d1c62a66ceba.js": "/master-thesis/precache-manifest.5930e58a0d39a57a8361d1c62a66ceba.js",
-  "service-worker.js": "/master-thesis/service-worker.js",
-  "static/css/main.0b346d46.chunk.css.map": "/master-thesis/static/css/main.0b346d46.chunk.css.map"
+  "files": {
+    "main.css": "/master-thesis/static/css/main.ca081b3d.css",
+    "main.js": "/master-thesis/static/js/main.8f94181a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/master-thesis/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/master-thesis/index.html",
+    "main.ca081b3d.css.map": "/master-thesis/static/css/main.ca081b3d.css.map",
+    "main.8f94181a.js.map": "/master-thesis/static/js/main.8f94181a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/master-thesis/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca081b3d.css",
+    "static/js/main.8f94181a.js"
+  ]
 }
