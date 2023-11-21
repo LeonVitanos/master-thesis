@@ -2,17 +2,15 @@
 <html>
 <head>
     <title>VLC: Repository Mining</title>
+    <link rel="stylesheet" href="../styles.css">
     <style>
-        body {
-            margin: 20px;
-        }
         iframe {
             width: 95vw;
             height: 450px;
             margin-bottom: 20px;
         }
         .notes {
-            margin-bottom: 10px;
+            margin-bottom: 40px;
         }
         .notes ul {
             list-style-type: disc;
@@ -27,39 +25,54 @@
         }
     </style>
 </head>
-<body>
-    <h1>VLC: Repository Mining</h1>
-    <div id="plot1">
-        <h2 class="plot-heading">All Files</h2>
-        <iframe src="plots/vlc_all_files.html" ></iframe>
-    </div>
 
-    <div id="plot2">
-        <h2 class="plot-heading">Programming Languages</h2>
-        <iframe src="plots/vlc_programming_languages.html"></iframe>
+<header>
+    <div id="tabs">
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+            <a class="dropbtn" href="#">VLC</a>
+            <div class="dropdown-content">
+                <a href="vlc.html">VLC Repository Mining</a>
+                <a href="build_instructions.html">VLC Build Instructions</a>
+            </div>
+        </div>
     </div>
+</header>
 
-    <div id="plot3">
-        <h2 class="plot-heading">Markup Languages</h2>
-        <iframe src="plots/vlc_markup_languages.html"></iframe>
-    </div>
+<body>  
+    <div id="content">
+        <h1>VLC: Repository Mining</h1>
 
-    <div id="plot4">
-        <h2 class="plot-heading">Build Tools</h2>
-        <iframe src="plots/vlc_build_tools.html"></iframe>
-    </div>
+        <div class="notes">
+            This page showcases the ongoing evolution of the <a href="https://code.videolan.org/videolan/vlc">VLC repository</a>, capturing key metrics such as file count, lines of code, comments, and the comments-to-code ratio.
+            <br>
+            The script for mining, running 'cloc' and processing the data, can be found <a href="https://github.com/LeonVitanos/master-thesis/blob/main/repository_mining/vlc_repository_mining.ipynb">here</a>.
+        </div>
 
-    <div id="plot5">
-        <h2 class="plot-heading">Languages related to UI components (from 2018)</h2>
-        <iframe src="plots/vlc_ui_languages.html"></iframe>
-    </div>
+        <div id="plot1">
+            <h2 class="plot-heading">All Files (excluding PO, SVG and diff)</h2>
+            <iframe src="plots/vlc_all_files.html" ></iframe>
+        </div>
 
-    <div class="notes">
-        Notes:
-        <ul>
-            <li>Excluded files are PO files, SVG, and diff</li>
-            <li>Languages that never had comments are not shown in the comments plots, neither taken into account for the comments to code ratio</li>
-        </ul>
+        <div id="plot2">
+            <h2 class="plot-heading">Programming Languages</h2>
+            <iframe src="plots/vlc_programming_languages.html"></iframe>
+        </div>
+
+        <div id="plot3">
+            <h2 class="plot-heading">Markup Languages</h2>
+            <iframe src="plots/vlc_markup_languages.html"></iframe>
+        </div>
+
+        <div id="plot4">
+            <h2 class="plot-heading">Build Tools</h2>
+            <iframe src="plots/vlc_build_tools.html"></iframe>
+        </div>
+
+        <div id="plot5">
+            <h2 class="plot-heading">Languages related to UI components from 2018 (modules/gui/qt)</h2>
+            <iframe src="plots/vlc_ui_languages.html"></iframe>
+        </div>
     </div>
 </body>
 </html>
