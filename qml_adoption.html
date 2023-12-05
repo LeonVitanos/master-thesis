@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VLC: QML adoption</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        iframe {
+            width: 95vw;
+            height: 450px;
+            margin-bottom: 20px;
+        }
+        .notes {
+            margin-bottom: 40px;
+        }
+        .notes ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .notes li {
+            margin-bottom: 5px;
+        }
+        .plot-heading {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<header>
+    <div id="tabs">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <a class="dropbtn" href="#">VLC</a>
+            <div class="dropdown-content">
+                <a href="#">VLC Build Instructions</a>
+                <a href="repository_mining/vlc.html">VLC Repository Mining</a>
+                <a href="qml_adoption.html">VLC QML Adoption</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>  
+    <div id="content">
+        <h1>VLC: QML adoption</h1>
+
+        <div id="plot1">
+            <h2 class="plot-heading">LOC changed in .qml files per developer</h2>
+            <iframe src="repository_mining/plots/vlc_qml_lines_changed.html"></iframe>
+        </div>
+    </div>
+</body>
+</html>
